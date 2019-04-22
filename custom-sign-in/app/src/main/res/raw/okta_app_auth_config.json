@@ -1,11 +1,11 @@
 {
-  "client_id": "",
-  "redirect_uri": "",
-  "end_session_redirect_uri": "",
+  "client_id": "0oahr0e1eyVd8DKfP356",
+  "redirect_uri": "com.okta.dev-801790:/callback",
+  "end_session_redirect_uri": "com.okta.dev-801790:/logoutCallback",
   "scopes": [
     "openid",
     "profile",
     "offline_access"
   ],
-  "issuer_uri": ""
+  "issuer_uri": "https://dev-801790.okta.com/oauth2/default"
 }

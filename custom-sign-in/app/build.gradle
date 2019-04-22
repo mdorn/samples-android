@@ -10,10 +10,11 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL", "\"{org-domain-with-https-schema}\"")
+        buildConfigField("String", "BASE_URL", "\"https://dev-801790.okta.com\"")
+
         manifestPlaceholders = [
-                hostName:"{only-org-domain}",
-                "appAuthRedirectScheme": "{redirect_uri_schema}"
+                hostName:"dev-801790.okta.com",
+                "appAuthRedirectScheme": "com.okta.dev-801790"
         ]
     }
     buildTypes {
